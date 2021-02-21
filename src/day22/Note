@@ -1,0 +1,7 @@
+有关JDBC遇见问题及解决
+    1、远程无法连接数据库
+        原因是在设置中并未开放权限，解决方法可参考网上的命令行方法，workbench中可在server中的users and privilieges中 将limit改为%
+    2、unknown database
+        此问题只会出现在数据库名称上，引起的原因可能是指向的数据库不存在，也有可能是指向的数据库名字有问题，仔细观察
+    3、Duplicate entry '50' for key 'dept.PRIMARY'
+        插入语句遇到键重复

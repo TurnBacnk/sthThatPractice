@@ -1,0 +1,16 @@
+常见的算法
+    冒泡排序算法
+    选择排序算法
+java.util.Arrays java提供的工具类中有排序方法 Arrays.sort();
+
+经典异常：
+    空指针异常：NullPointerException
+    类型转换异常：ClassCastException
+    数组下标越界异常：ArrayIndexOutOfBoundsException
+    数字格式化异常：NumberFormatException
+System类相关属性和方法
+    System.out                      [out时System类的静态变量]
+    System.out.println()            [println()方法不是System类的，是PrintStream类的方法]
+    System.gc()                     [建议启动垃圾回收器]
+    System.currentTimeMillis()      [获取自1970年1月1日到系统当前时间的总毫秒数]
+    System.exit(0)                  [退出JVM]

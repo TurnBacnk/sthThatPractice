@@ -1,0 +1,21 @@
+class Test
+{
+    static String country;
+    static class Inner1{}
+
+    int age;
+    class Inner2{}
+
+    public void doSome()
+    {
+        int i =10;
+        class Inner3{}
+    }
+    public static void main(String[] args)
+    {
+        my.math(Computer{
+            public int sum(int a , int b)
+                return a+b;
+        },**,**)//匿名内部类的一种语法
+    }
+}
